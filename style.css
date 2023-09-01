@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: #c2e6e8;
+  background-color: #ffffff;
 }
 
 #root {
@@ -16,14 +16,14 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
+  background-color: rgb(11, 147, 150);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
   box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  -webkit-box-shadow: 0.2em 0.2em rgb(1, 95, 115);
   -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
 }
 
@@ -37,11 +37,11 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: rgb(242, 234, 214); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px sienna;
+  box-shadow: 10px 10px rgb(233, 216, 166);
 }
 
 /* Display + Stop/Start/Reset Controls */
